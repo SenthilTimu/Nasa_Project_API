@@ -71,3 +71,9 @@ A Streamlit-based interactive dashboard that connects to a MySQL database to dis
    CREATE DATABASE nasa;
    
 4. pip install streamlit pandas mysql-connector-python streamlit-option-menu
+
+5. python -m venv env
+
+6. C:\Nasa_Project\env\Scripts\Activate.ps1
+
+7. streamlit run C:\Nasa_Project\env\Scripts\nasa.py
