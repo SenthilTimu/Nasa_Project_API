@@ -4,25 +4,25 @@ This project fetches Near-Earth Object (NEO) data from NASA's public API and sto
 
 🚀 Features
 
-..* Fetches NEO data for a specific date range from NASA's API.
+- Fetches NEO data for a specific date range from NASA's API.
 
-..* Extracts detailed information about each asteroid including size, magnitude, and hazard status.
+- Extracts detailed information about each asteroid including size, magnitude, and hazard status.
 
-..* Tracks close-approach metrics like velocity, distance from Earth, and orbiting body.
+- Tracks close-approach metrics like velocity, distance from Earth, and orbiting body.
 
-..* Stores the data into two MySQL tables: asteroids and close_approach.
+- Stores the data into two MySQL tables: asteroids and close_approach.
 
 🧰 Technologies Used
 
-..* Python 3.x
+- Python 3.x
 
-..* requests – for API interaction
+- requests – for API interaction
 
-..* mysql-connector-python – to connect Python with MySQL
+- mysql-connector-python – to connect Python with MySQL
 
-..* MySQL – for structured data storage
+- MySQL – for structured data storage
 
-..* NASA NEO API – source of real-time asteroid data
+- NASA NEO API – source of real-time asteroid data
 
 # 🚀 NASA Asteroid Tracker 🌠
 
@@ -69,6 +69,5 @@ A Streamlit-based interactive dashboard that connects to a MySQL database to dis
    
 3. Make sure you have a MySQL server running and a database named nasa created:
    CREATE DATABASE nasa;
-
-4. ```bash
-5. pip install streamlit pandas mysql-connector-python streamlit-option-menu
+   
+4. pip install streamlit pandas mysql-connector-python streamlit-option-menu
